@@ -1,0 +1,288 @@
+body {
+    background: #F5DEB3;
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: 1000px;
+    background: #D2B48C;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
+    color: #fff;
+}
+
+.container .left-side {
+    position: relative;
+    background: #CD853F;
+    padding: 40px;
+}
+
+.profile-text {
+    color: white;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.profile-text.imgfoto {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.imgfoto img {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+
+.profile-text h2 {
+    color: #fff;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+
+.profile-text h2 span {
+    font-size: 0.8em;
+    font-weight: 300;
+}
+
+.contact {
+    padding-top: 10px;
+    color: #8B4513;
+}
+
+.title {
+    color: brown;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.contact ul {
+    position: relative;
+}
+
+.contact ul li {
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.contact ul li .icon {
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: brown;
+}
+
+.contact ul li span {
+    color: #fff;
+    font-weight: 300;
+}
+
+.contact.education h5 {
+    color: #8B4513;
+    font-weight: 500;
+}
+
+.contact.education h4 {
+    color: brown;
+    font-weight: 500;
+}
+
+.language span {
+    color: brown;
+}
+
+.contact.language .percent {
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background: #fff;
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.contact.language .percent div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: brown;
+}
+
+.container.right-side {
+    position: relative;
+    background: #FFDEAD;
+    padding: 40px;
+}
+
+.about {
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.title2 {
+    color: brown;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+p {
+    color: #8B4513;
+}
+
+.about.box {
+    display: flex;
+    margin: 20px 0;
+}
+
+.qualities ul {
+    list-style: none;
+    color: #8B4513;
+}
+
+.qualities ul li {
+    margin: 5px;
+    cursor: pointer;
+}
+
+.qualities ul li .fa {
+    color: brown;
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+
+.scills h4 {
+    text-transform: uppercase;
+    color: brown;
+    font-weight: 500;
+    margin-top: 4px;
+    margin-bottom: 5px;
+}
+
+.about.scills .percent {
+    position: relative;
+    width: 100%;
+    height: 10px;
+    background: #fff;
+    margin-bottom: 20px;
+}
+
+.about.scills .percent div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: brown;
+}
+
+.interest ul {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.interest ul li {
+    list-style: none;
+    color: #8B4513;
+    font-weight: 500;
+    margin: 10px 0;
+}
+
+.interest ul li .fa {
+    color: brown;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+
+
+
+
+.contactInfo ul li .icon{
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: brown;
+}
+.contactInfo ul li span {
+    color: dark brown;
+    font-weight: 300;
+}
+.contactInfo.education li{
+    margin-bottom: 15px;
+    color: brown;
+}
+.contactInfo.education h5{
+    color: brown;
+    font-weight: 500;
+}
+.contactInfo.education h4:nth-child(2){
+    color: #8B4513;
+    font-weight: 500;
+}
+.contactInfo.education h4{
+    color: #8B4513;
+    font-weight: 300;
+}
+
+
+
+
+
+
+
+
+
+
+.about.scills .percent div {
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+
+
+@keyframes slidein {
+    from {
+        margin-left: 0%;
+        width: 0%;
+    }
+    to {
+        margin-left: 0%;
+    }
+}
+
+.contact.language .percent div {
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+    from {
+        margin-left: 0%;
+        width: 0%;
+    }
+    to {
+        margin-left: 0%;
+    }
+}
